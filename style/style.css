@@ -1,0 +1,46 @@
+header{
+	height: 50px;
+	border-bottom: 1px solid;
+	background-color: #293596; 
+}
+body{
+	width: 100%;
+}
+footer{
+	height: 50px;
+	border-top: 1px solid;
+	background-color: #9496a6;
+}
+#content{
+	height: 450px;
+	padding-left: 50px;
+}
+nav{
+	float: right;
+	padding: 20px;
+}
+.nav-menu, #title{
+	color: white;
+}
+img{
+	vertical-align: middle;
+	width: 40px;
+	height: 40px;
+}
+.right-align{
+	text-align: right;
+}
+.left-align{
+	text-align: left;
+	width: 200px;
+}
+.center-align{
+	text-align: center;
+}
+.green{
+	color: #008000;
+	text-align: center;
+}
+#no-item{
+	color: #998e8e;
+}

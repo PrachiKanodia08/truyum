@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edit-Menu-Item</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	<header>
+		<span id="title">truYum</span>
+		<img src="images/lightpic.jpg" title="truYumImage">
+		<nav>
+			<a href="menu-item-list-admin.html" class="nav-menu"><u>Menu</u></a>
+			<a href="cart.html" class="nav-menu"><u>Cart</u></a>
+		</nav>
+	</header>
+	<div id="content">
+		<h2>Edit Menu Item</h2>
+		<form action="edit-menu-item-status" onsubmit="return validate()">
+		<table>
+			<tr>
+				<td colspan="4"><label>Name</label></td>
+			</tr>
+			<tr>
+				<td><input type="text"name="title" size="50" requied></td>
+			</tr>
+			<tr>
+				<td name="price" required><label>Price</label></td>
+			</tr>
+			<tr>
+				<td><input type="number"name="price" size="10" requied></td>
+			</tr>
+		</table>
+	</form>
+	</div>
+	<footer>
+		Copyright @ 2019
+	</footer>
+</body>
+</html>
